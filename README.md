@@ -16,7 +16,6 @@ BinIT is a pioneering platform dedicated to empowering individuals and communiti
 ## 🚀 Features
 - **Pollution Reporting System:** Users can report land and water pollution incidents.
 - **AI-Powered Analysis:** Automated categorization of pollution incidents using AI.
-- **Geospatial Mapping:** Identifies pollution hotspots for targeted interventions.
 - **Real-Time News Feed:** Fetches environmental news using an external API.
 - **Educational Resources:** Provides pollution prevention and mitigation strategies.
 - **User Authentication:** Secure login/signup via Clerk (main site) and Firebase (admin panel).
