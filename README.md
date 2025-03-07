@@ -21,7 +21,6 @@ BinIT is a pioneering platform dedicated to empowering individuals and communiti
 - **Educational Resources:** Provides pollution prevention and mitigation strategies.
 - **User Authentication:** Secure login/signup via Clerk (main site) and Firebase (admin panel).
 - **Admin Dashboard:** Manages pollution reports, user data, and insights.
-- **Community Engagement:** Enables users to collaborate on pollution control efforts.
 - **Mobile-Friendly UI:** Optimized for seamless user experience across all devices.
 
 ## 🛠 Development & Deployment
