@@ -1,0 +1,61 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height:85vh;
+  background: linear-gradient(135deg, #f0f2f5, #e3f2fd);
+
+  .homeContainer {
+    width: 60%;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    h1 {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .dashboard-overview {
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      
+      h2 {
+        font-size: 1.5rem;
+        color: #007bff;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          font-size: 1.1rem;
+          color: #333;
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+          
+          &::before {
+            content: "✔️";
+            margin-right: 8px;
+            color: #28a745;
+          }
+        }
+      }
+    }
+  }
+}

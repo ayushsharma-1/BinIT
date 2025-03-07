@@ -1,0 +1,17 @@
+.datatable {
+  width: 170vh;
+  .datatableint {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    font-size: 14px;
+  }
+
+  .iconImg {
+    cursor: pointer;
+    a {
+      color: rgb(42, 159, 255);
+      display: flex;
+    }
+  }
+}

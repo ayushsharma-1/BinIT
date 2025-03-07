@@ -1,0 +1,384 @@
+.faqs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+}
+
+/* HEADER SECTION */
+.faqs-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    position: relative;
+    gap: 10px;
+    padding: 3rem 5rem;
+    background: linear-gradient(135deg, #d9fcdd, #b2f0c0);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.faq-titles {
+    font-size: 3.9rem;
+    font-weight: bold;
+    color: #333;
+    /* margin-bottom: 2rem; */
+    text-align: center;
+}
+
+.faq-co-title {
+    /* margin-top: 10px;  */
+    font-size: 2.2rem;
+    font-weight: normal;
+    color: #666;
+    text-align: center;
+}
+
+.faq-here-u-go {
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+.faq-here-u-go a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.faq-here-u-go a:hover {
+    color: darkblue;
+}
+
+.faqs-header img {
+    height: 20rem;
+    margin-bottom: -5.4rem;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    object-fit: contain;
+}
+
+.faqs-header img:hover {
+    transform: scale(1.05);
+}
+
+/* FAQ QUESTIONS SECTION */
+.faqs-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+    padding: 3rem 5rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* FAQ ITEM */
+.faq-item {
+    list-style: none;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+    background-color: #f1f1f1;
+}
+
+.faq-question {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* FAQ ANSWER */
+.faq-answer {
+    font-size: 1.5rem;
+    color: #555;
+    max-height: 0;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: max-height 0.5s ease-out, padding 0.3s ease-out;
+}
+
+.faq-answer.open {
+    max-height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* contact section */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.contact-top {
+    border-top: 1px solid black;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-titles {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.contact-here-u-go {
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* CONTACT FORM */
+.contact-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.contact-bottom img {
+    height: 25rem;
+}
+
+.contact-form {
+    background: linear-gradient(135deg, #eaf4fc, #cce7ff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem 5rem;
+    filter: drop-shadow(10px 10px 10px grey);
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.contact-form:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* INPUT FIELDS */
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+}
+
+.contact-input input,
+.contact-input textarea {
+    width: 27rem;
+    border-radius: 10px;
+    border: 2px solid #1e90ff;
+    filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.1));
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-input input:focus,
+.contact-input textarea:focus {
+    border: 2px solid #ff4500;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(255, 69, 0, 0.4);
+}
+
+/* BUTTON STYLES */
+.submit-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 3.2rem;
+}
+
+.submit-btns button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btns button:hover {
+    background-color: #ff6347;
+    color: white;
+    transform: scale(1.05);
+}
+
+.submit-btns button:active {
+    transform: scale(0.95);
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 768px) {
+    .faqs-header img{
+        margin-bottom: -4.7rem;
+    }
+
+    .faqs{
+        padding: 1rem;
+    }
+
+    .faqs-header {
+        padding: 2rem;
+    }
+
+    .faq-titles {
+        font-size: 2.5rem;
+    }
+
+    .faq-co-title {
+        font-size: 1.8rem;
+    }
+
+    .faq-here-u-go {
+        font-size: 1.4rem;
+    }
+
+    .faq-question{
+        font-size: 22px;
+    }
+
+    .faq-answer{
+        font-size: 20px;
+    }
+
+    .contact-titles{
+        text-align: center;
+    }
+
+    .contact-bottom {
+        flex-direction: column-reverse;  /* Stack items vertically on smaller screens */
+        gap: 0.5rem;
+    }
+
+    .contact-bottom img {
+        height: 20rem;
+        width: 100%;  /* Ensure image takes full width on smaller screens */
+    }
+
+    .contact-form {
+        width: 100%;  /* Ensure the form takes full width on smaller screens */
+    }
+
+    .faqs-main {
+        padding: 0.5rem;
+        margin-top: 1rem; /* Reduced margin-top to bring Contact Us section closer */
+    }
+
+    .contact-form {
+        padding: 1rem 3rem;
+    }
+
+    .contact-input input,
+    .contact-input textarea {
+        font-size: 1.4rem;
+        width: 100%;
+        max-width: none;
+    }
+
+    .submit-btns {
+        gap: 1rem;
+    }
+
+    .submit-btns button {
+        font-size: 1.3rem;
+    }
+
+    .contact-titles {
+        font-size: 2.5rem;
+    }
+
+    .contact-here-u-go {
+        font-size: 1.5rem;
+    }
+
+    .contact-top {
+        padding: 1rem 5rem; /* Reduced padding to make it more compact */
+    }
+
+    .contact {
+        margin-bottom: 2rem; /* Reduced margin-bottom to bring the Contact Us section closer */
+    }
+}
+
+/* @media screen and (max-width: 480px) {
+    .faq-titles {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+    .faq-co-title {
+        font-size: 1.6rem;
+    }
+
+    .faq-here-u-go {
+        font-size: 1.2rem;
+    }
+
+    .contact-titles {
+        font-size: 2rem;
+    }
+
+    .contact-here-u-go {
+        font-size: 1.3rem;
+    }
+
+    .faqs-header img {
+        height: 15rem;
+    }
+
+    .contact-bottom img {
+        height: 15rem;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-input input,
+    .contact-input textarea {
+        font-size: 1.2rem;
+    }
+
+    .submit-btns button {
+        font-size: 1.2rem;
+    }
+
+    .faqs-main {
+        margin-top: 0.5rem; 
+    }
+
+    .contact {
+        margin-bottom: 1.5rem;
+    }
+} */
